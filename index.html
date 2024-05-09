@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!--Joseph Sutton
+        JoeyFresh page
+        05/01/24
+    -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JoeyFresh Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="../JOEYFRESH/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../JOEYFRESH/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../JOEYFRESH/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="../JOEYFRESH/favicon_io/site.webmanifest">
+
+</head>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+        onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#home" class="w3-bar-item w3-button">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+      <audio class="player" controls autoplay>
+        <source src="..//Joeyfresh/audio files/beat it compressed.mp3">
+      </audio>
+
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- First Parallax Image with Logo Text -->
+  <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle">
+      <img class="logo" src="images/joeyfresh-logo.svg" alt="dj joeyfresh logo">
+    </div>
+  </div>
+
+  <!-- Container (About Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="about">
+    <h3 class="w3-center">ABOUT ME</h3>
+    <p class="w3-center"><em>I love Music</em></p>
+    <p>I Am a DJ that absolutely has a love for music and the culture with it. I spend my time studying music and the
+      joy it brings to people. My goal is to bring entetainment and happpiness to all who attend my events.
+      If anybody leaves unsatisfied then I am truly not Satisfied. Any new music presented to me that I do not know
+      about I will do my research before that gig and get to know that style/genre of music.
+    </p>
+    <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <p><b><i class="fa fa-user w3-margin-right"></i>JoeyFresh</b></p><br>
+        <img src="../JOEYFRESH/images/joeyfresh-studio.png" class="w3-round w3-image" alt="dj joey fresh in the studio" width="500"
+          height="333">
+      </div>
+
+      <!-- Hide this text on small devices -->
+      <div class="w3-col m6 w3-hide-small w3-padding-large">
+        <p>Welcome to my website. I have always been into music. I started Dancing when I was a Young Boy then Branched
+          into the world of playing music when I got my first mixer/controller in 2015.
+          I was then trained on vinyl when I started going out and Watching the Vynil Squad play. They continued my
+          Journey into the world of music. after hanging around with them in the year of 2017
+          thats when I got my first set of turntables. I then continued that path learning to Mix, Battle DJ, MC, and
+          Read the Crowd itself. I started playing various clubs in my area only to grow and
+          expand to different variety of events. Now I play all types of events whether its club events, private events,
+          BBQs, sweet sixteens, weddings...ect if you are in the need of music entertainment
+          Then im your guy!!! </p>
+      </div>
+    </div>
+    <p class="w3-large w3-center w3-padding-16">MY SEPCIALTIES:</p>
+    <p class="w3-wide"><i class="fa fa-laptop"></i>Private events/Weddings</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">95%  </div>
+    </div>
+    <p class="w3-wide"><i class="fa fa-headphones"></i>club events</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">95% </div>
+    </div>
+    <p class="w3-wide"><i class="fa fa-mobile"></i>social media</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85% </div>
+    </div>
+  </div>
+
+  <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">17+</span><br>
+      Night clubs/bars played at.
+    </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">27+</span><br>
+      DJs/MCs worked with
+    </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">94+</span><br>
+      gigs in the last year.
+    </div>
+    <div class="w3-quarter w3-section">
+      <span class="w3-xlarge">22+</span><br>
+      genres
+    </div>
+  </div>
+
+  <!-- Second Parallax Image with Portfolio Text -->
+  <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    </div>
+  </div>
+
+  <!-- Container (Portfolio Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="portfolio">
+    <h3 class="w3-center">Social</h3>
+    <p class="w3-center"><em>check out some of my work in my profile below.</p><br>
+
+        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+        <div class="elfsight-app-d06a1207-76f0-407a-b4d9-96151190052b" data-elfsight-app-lazy></div>
+        
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+   <!--<div class="w3-row-padding w3-center">
+      <div class="w3-col m3">
+        <img src="../JOEYFRESH/images/gigs/darbys-2019.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="CLUB DARBY O' GILLS 2019">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="../JOEYFRESH/images/gigs/chatue-2018.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="WEDDING VENUE CHATUE 2018">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="../JOEYFRESH/images/gigs/cuddys-23.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="CLUB MCGILLICUDDYS 2023">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="../JOEYFRESH/images/gigs/oasis-2017.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="CLUB OASIS 2017">
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-center w3-section">
+      <div class="w3-col m3">
+        <img src="../JOEYFRESH/images/gigs/vinylsquadboathouse-2018.JPG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+        alt="VINYL SQUAD WEDDING NYC BOATHOUSE 2018">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="../JOEYFRESH/images/gigs/cuenbrewformal-2024.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="MARIST FORMAL CLUB CUE N' BREW 2024">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="../JOEYFRESH/images/gigs/billyjoes-2023.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="CLUB BILLY JOES 2023">
+      </div>
+
+      <div class="w3-col m3">
+        <img src="../JOEYFRESH/images/gigs/refinery-2024.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" 
+        alt="CLUB REFINERY 51 2024">
+      </div>
+    </div> -->
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+        class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+  </div>
+
+  <!-- Third Parallax Image with Portfolio Text -->
+  <div class="bgimg-3 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+    </div>
+  </div>
+
+  <!-- Container (Contact Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="contact">
+    <h3 class="w3-center">WHERE I WORK</h3>
+    <p class="w3-center"><em>CONTACT ME!</em></p>
+    <div class="w3-row w3-padding-32 w3-section">
+      <div class="w3-col m4 w3-container">
+        <img src="../JOEYFRESH/images/newyork-red.png" class="w3-image w3-round" style="width:100%">
+      </div>
+      <div class="w3-col m8 w3-panel">
+        <div class="w3-large w3-margin-bottom">
+          <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Kingston,New York<br>
+          <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: <a
+            href="tel:+18455323966">+1-845-532-3966</a><br>
+          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: <a
+            href="mailto:iamjoeyfresh@gmail.com?subject=DJ Inquiry">iamjoeyfresh@gmail.com</a><br>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+      <i class="fa fa-facebook-official"></i>
+      <i class="fa fa-instagram"></i>
+      <p> @iamjoeyfresh </p>
+    </div>
+  </footer>
+
+  <script>
+    // Modal Image Gallery    
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function toggleFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+  </script>
+
+</body>
+
+</html>
